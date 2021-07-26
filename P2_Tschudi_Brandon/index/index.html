@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta rel="stylesheet" href="../style css/style.css" />
+    <link rel="stylesheet" href="../style_css/style.css" />
     <title>Reservia</title>
 
-<header>  
-    <p><img src="../assets/images/Reservia@3x.png" alt="logo_reservia" /></p>
+<div id="bloc_page">
+<header>
+
+    <p><img src="../assets/images/Reservia@3x.png" alt="logo_reservia" class="logo_reservia" /></p>
   
     <nav>
         <ul>
@@ -18,7 +20,7 @@
         </ul>
     </nav> 
   
-    <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+    <h1 id="titre_page">Trouvez votre hébergement pour des vacances de rêve</h1>
     <p>En plein centre-ville ou en pleine nature</p>
 
     <form method="POST" action="traitement.php">
@@ -26,35 +28,39 @@
             <input type="text" name="recherche" id="recherche" placeholder="Ex. Marseille, France" />     
             <input type="submit" name="bouton_envoi" id="bouton_envoi" value="Rechercher" />
         </p>
-    </form><br />
-
+    </form><br/>
+<div id="logos">
     <p><Strong>Filtres</Strong></p>
-
-        <div class="logo_coeur">
-            <p><a href="#"><img src="../assets/images/gratipay-brands.svg" alt="logo_coeur" />Romantique</a></p>
+    
+        <div id="logo_coeur">
+            <p><a href="#"><img src="../assets/images/gratipay-brands.svg" alt="logo_coeur" class="logo_coeur" />Romantique</a></p>
         </div>
 
-        <div class="logo_eco">
-            <p><a href="#"><img src="../assets/images/money-bill-wave-solid.svg" alt="logo_eco"/>Économique</a></p>
+        <div id="logo_eco">
+            <p><a href="#"><img src="../assets/images/money-bill-wave-solid.svg" alt="logo_eco" class="logo_eco"/>Économique</a></p>
         </div>
 
-        <div class="logo_familial">
-            <p><a href="#"><img src="../assets/images/child-solid.svg" alt="logo_familial" />Familial</a></p>
+        <div id="logo_familial">
+            <p><a href="#"><img src="../assets/images/child-solid.svg" alt="logo_familial" class="logo_familial"/>Familial</a></p>
         </div>
 
-        <div class="logo_animaux">
-            <p><a href="#"><img src="../assets/images/dog-solid.svg" alt="logo_animaux" />Animaux autorisés</a></p>
+        <div id="logo_animaux">
+            <p><a href="#"><img src="../assets/images/dog-solid.svg" alt="logo_animaux" class="logo_animaux" />Animaux autorisés</a></p>
+        </div><br/>
+</div> 
+        <div id="information_header">
+            <p><img src="../assets/images/info-circle-solid.svg" alt="logo_info" id="logo_info" /></p>
+           <div id="info">
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+           </div>
         </div>
-  
-        <div class="information_header">
-            <p><img src="../assets/images/info-circle-solid.svg" />
-            Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>
+    
 </header>  
 </head>
 
 <body>
-    <section class="hebergement_a_marseille">
+    <div id="premiers_blocs">   
+    <section id="hebergement_a_marseille">
         <h1 id="hebergements_a_marseille">Hébergements à Marseille</h1>
         
         <div class="bloc_1">
@@ -90,9 +96,9 @@
         <p><a href="#">Afficher plus</a></p>
     </section>
 
-    <section class="les_plus_populaires">
+    <section id="les_plus_populaires">
         <h1>Les plus populaires</h1>
-        <p><img src="../assets/images/chart-line-solid.svg" alt="logo_populaires" /></p>
+        <p><img src="../assets/images/chart-line-solid.svg" alt="logo_populaires" id="logo_populaires" /></p>
 
         <div class="pop_1">
             <p><a href="#"><img src="../assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel_le_soleil" />Hôtel "Le Soleil du matin"<br/>
@@ -109,8 +115,8 @@
             À partir de <strong>68€</strong></a></p>
         </div>
     </section>
-
-    <section class="activites">
+    </div>
+    <section id="act">
         <h1 id="activites">Activités à Marseille</h1>
         
         <div class="act_1">
@@ -132,7 +138,7 @@
             <p><a href="#"><img src="../assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="parc_longchamp" />Parc Longchamp</a></p>
         </div>
     </section>
-    
+
  <footer>
      <div class="a_propos">
          <h1>À propos</h1>
@@ -156,4 +162,5 @@
      </div>
  </footer>
 </body>
+</div>
 </html>
