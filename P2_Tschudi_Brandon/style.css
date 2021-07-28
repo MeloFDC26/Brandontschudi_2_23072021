@@ -1,32 +1,11 @@
-@font-face {
-    font-family: 'Raleway';
-    src: url(../assets/police/Raleway/Raleway-Italic-VariableFont_wght.ttf);
-    src: url(../assets/police/Raleway/Raleway-VariableFont_wght.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-Black.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-BlackItalic.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-BoldItalic.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-ExtraBold.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-ExtraBoldItalic.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-ExtraLight.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-ExtraLightItalic.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-Italic.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-Light.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-LightItalic.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-Medium.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-MediumItalic.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-Regular.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-SemiBold.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-SemiBoldItalic.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-Thin.ttf);
-    src: url(../assets/police/Raleway/static/Raleway-ThinItalic.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 a{
     text-decoration: none;
 }
 
-#bloc_page{
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+body{
+    font-family: 'Raleway', sans-serif;
 }
 
 strong{
@@ -89,6 +68,34 @@ ul{
 
 .logo_animaux{
     height: auto;
+    display: block;
+    flex-direction: row;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    background-color: #deebff;
+    border: 1px groove black;
+    border-radius: 50%;
+    padding: 10px;
+    width: 30px;
+    padding-bottom: 20px;
+    margin: auto;
+    
+}
+
+#logo_animaux img{
+    filter: #0065fc;
+}
+
+#logo_animaux{
+    display: block;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content: center;
+    border: solid black 0.5px;
+    border-radius: 35%;
+    border-left: none;
     
 }
 
