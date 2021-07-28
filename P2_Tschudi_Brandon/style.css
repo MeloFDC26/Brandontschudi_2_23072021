@@ -9,11 +9,11 @@ body{
 }
 
 strong{
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 h1{
-    font-weight: bolder;
+    font-weight: bold;
     
 }
 
@@ -68,7 +68,7 @@ ul{
 
 .logo_animaux{
     height: auto;
-    display: block;
+    display: flex;
     flex-direction: row;
     float: left;
     justify-content: center;
@@ -83,7 +83,7 @@ ul{
     
 }
 
-#logo_animaux img{
+.logo_coeur{
     filter: #0065fc;
 }
 
