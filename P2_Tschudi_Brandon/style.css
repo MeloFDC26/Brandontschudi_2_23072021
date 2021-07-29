@@ -2,6 +2,7 @@
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 body{
@@ -39,8 +40,8 @@ ul{
     display: block;
     float: left;
     clear: both;
-    width: 15%;
-    
+    width: 10%;
+    margin-bottom: -30px;
 }
 
 
@@ -55,6 +56,36 @@ ul{
 
 }
 
+#map_marker{
+    border: 1px solid black;
+    margin-right: -5px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    padding-top: -3px;
+    border-radius: 25% 0% 0% 25%;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+#bouton_envoi{
+    color: white;
+    background-color: #0065fc;
+    padding: 15px;
+    border-radius: 0px 15px 15px 0px;
+    margin-left: -5px;
+}
+
+#recherche{
+    font-weight: bold;
+    padding: 15px;
+}
+
 #logos{
     display: flex;
     flex-direction: row;
@@ -66,21 +97,12 @@ ul{
     height: auto;
 }
 
-.logo_animaux{
-    height: auto;
+#logo_coeur, #logo_eco, #logo_familial{
     display: flex;
     flex-direction: row;
-    float: left;
     justify-content: center;
     align-items: center;
-    background-color: #deebff;
-    border: 1px groove black;
-    border-radius: 50%;
-    padding: 10px;
-    width: 30px;
-    padding-bottom: 20px;
-    margin: auto;
-    
+    margin-bottom: 20px;
 }
 
 #logo_animaux{
@@ -101,12 +123,13 @@ ul{
 }
 
 #logo_info{
-    float: left;
-    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 10px;
+    
     height: auto;
+    color: #0065fc;
     justify-content: center;
-    align-items: center;
-    padding-right: 10px;
 }
 
 #info{
