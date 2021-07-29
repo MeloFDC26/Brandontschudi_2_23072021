@@ -253,6 +253,10 @@ footer{
     width: 150px;
 }
 
+.filtres:hover{
+    background-color: #deebff;
+}
+
 .carte{
     border: 2px solid black;
     border-radius: 10%;
