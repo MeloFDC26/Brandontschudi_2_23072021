@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
 body{
     font-family: 'Raleway', sans-serif;
 }
@@ -20,6 +15,19 @@ h1{
 
 h2{
     font-weight: bold;
+}
+
+i{
+    font-size: 25px;
+}
+
+.logo_reservia{
+    display: block;
+    float: left;
+    clear: both;
+    width: 8%;
+    margin-bottom: -5px;
+    margin-top: 20px;
 }
 
 #heberge:hover, #activi:hover, #sinscrire:hover{
@@ -41,18 +49,6 @@ header ul{
     font-size: medium;
 }
 
-#heberge{
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#activi{
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 #sinscrire{
     color: #0065fc;
     font-weight: bold;
@@ -60,16 +56,6 @@ header ul{
     padding-left: 10px;
     padding-right: 10px;
 }
-
-.logo_reservia{
-    display: block;
-    float: left;
-    clear: both;
-    width: 8%;
-    margin-bottom: -5px;
-    margin-top: 20px;
-}
-
 
 #titre_page{
     display: flex;
@@ -96,8 +82,14 @@ form{
     display: flex;
     flex-direction: row;
     margin-bottom: 40px;
-    margin-left: 0px;
-    
+    margin-left: 0px; 
+}
+
+#recherche{
+    font-weight: bold;
+    padding: 15px;
+    font-size: medium;
+    border: 1px solid #F2F2F2;
 }
 
 #bouton_envoi{
@@ -112,11 +104,24 @@ form{
     font-weight: bold;
 }
 
-#recherche{
-    font-weight: bold;
-    padding: 15px;
-    font-size: medium;
-    border: 1px solid #F2F2F2;
+.filtres{
+    border: 3px #f2f2f2 solid;
+    opacity: 1;
+    border-left: none;
+    border-radius: 0px 35px 35px 0px;
+    padding: 0px;
+    width: 150px;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.filtres:hover{
+    background-color: #deebff;
 }
 
 #logos{
@@ -132,6 +137,21 @@ form{
     margin-bottom: 20px;
 }
 
+#logos i{
+    color: #0065fc;
+    background-color: #deebff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #deebff;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+    margin-left: -45px;  
+}
+
 #logo_familial{
     padding-left: -20px;
     width: 120px;
@@ -139,14 +159,6 @@ form{
 
 #logo_animaux{
     width: 200px;
-}
-
-#information_header{
-    display: inline-block;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
 }
 
 #logo_info{
@@ -172,6 +184,11 @@ form{
     align-items: baseline;
 }
 
+.carte_heberge{
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
 #hebergement_a_marseille{
     clear: both;
     text-align: center;
@@ -185,13 +202,19 @@ form{
     height: auto;
 }
 
-#hebergements_a_marseille{
-    display: block;
-    justify-content: left;
+#hebergement_a_marseille i{
+    color: #0065fc;
 }
 
 #les_plus_populaires{
     background-color: #f2f2f2;
+}
+
+#logo_populaires{
+    width: 20%;
+    position: relative;
+    justify-content: end;
+    align-items: flex-end;
 }
 
 footer{
@@ -217,63 +240,3 @@ footer li{
 .footer_bloc{
     flex: 1;
 }
-
-#premiers_blocs{
-    flex-direction: row;
-}
-
-#logo_populaires{
-    width: 20%;
-    position: relative;
-    justify-content: end;
-    align-items: flex-end;
-}
-
-#logos i{
-    color: #0065fc;
-    background-color: #deebff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: solid 2px #deebff;
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    margin-right: 10px;
-    margin-left: -45px;  
-}
-
-#hebergement_a_marseille i{
-    color: #0065fc;
-}
-
-.filtres{
-    border: 3px #f2f2f2 solid;
-    opacity: 1;
-    border-left: none;
-    border-radius: 0px 35px 35px 0px;
-    padding: 0px;
-    width: 150px;
-    height: 53px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    margin-right: 10px;
-}
-
-.filtres:hover{
-    background-color: #deebff;
-}
-
-.carte_heberge{
-    border: 2px solid black;
-    border-radius: 10%;
-}
-
-i{
-    font-size: 25px;
-}
-
