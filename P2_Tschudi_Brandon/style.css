@@ -8,6 +8,11 @@ strong{
     font-weight: bold;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+}
+
 h1{
     font-weight: bold;
     font-size: x-large;
@@ -26,33 +31,34 @@ i{
     float: left;
     clear: both;
     width: 8%;
-    margin-bottom: -5px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 #heberge:hover, #activi:hover, #sinscrire:hover{
     border-top: #0065fc solid;
     color: #0065fc;
+    
 }
 
 header ul{
     list-style-type: none;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
     position: absolute;
-    right: 50px;
-    float: top right;
+    right: 40px;
     width: 400px;
-    padding-top: 30px;
+    padding-top: 0px;
+    
     font-size: medium;
 }
 
 #sinscrire{
     color: #0065fc;
     font-weight: bold;
-    padding-top: 30px;
+    padding-top: 0px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -184,26 +190,87 @@ form{
     align-items: baseline;
 }
 
-.carte_heberge{
-    border: 2px solid black;
-    border-radius: 10%;
-}
-
-#hebergement_a_marseille{
-    clear: both;
-    text-align: center;
+#hebergement_a_marseille{  
     background-color: #f2f2f2;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    height: auto;
+    flex-direction: column;
+    width: 67%;
+    height: 600px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 #hebergement_a_marseille i{
     color: #0065fc;
+}
+
+#hebergement_a_marseille h2{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.carte_heberge{
+    border: 2px solid #F2F2F2;
+    border-radius: 10% 10% 10% 10%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+    font-size: small;
+    width: 240px;
+    height: auto;
+    margin: 5px;
+    margin-left: 10px;
+    
+}
+
+.carte_heberge img{
+    border-radius: 10% 10% 0 0;
+    height: 110px;
+    width: 220px;
+    padding-bottom: 0px;
+    margin: 8px;
+}
+
+.nom_carte{
+    font-weight: bold;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.legende_carte{
+    padding-bottom: 5px;
+    padding-top: 2px;
+}
+
+.prix_carte{
+    font-weight: bold;
+}
+
+#etoiles_carte{
+    padding-bottom: 15px;
+    padding-top: 5px;
+    
+}
+
+#cartes_ensemble{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    padding: 0px;
+    margin-left: 0px;
+    
+}
+
+#afficher_plus{
+    font-weight: bold;
+    margin-left: 30px;
+    padding-top: 10px;
 }
 
 #les_plus_populaires{
