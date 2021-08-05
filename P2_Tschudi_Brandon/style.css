@@ -330,6 +330,7 @@ form{
     width: 425px;
     height: 150px;
     margin-left: 20px; 
+    margin-bottom: 30px;
     font-size: medium; 
     flex-wrap: nowrap; 
 }
@@ -352,7 +353,6 @@ form{
 
 .nom_carte_pop{
     font-weight: bold;
-    margin-bottom: 0px;
     margin-top: 15px;
     font-size: large;
     display: flex;
@@ -374,8 +374,11 @@ form{
 }
 
 #cartes_pop_ensemble{
-    margin-top: 0px;
-    padding-top: 0px;
+    display: block;
+    position: absolute;
+    margin-top: 125px;
+    justify-content: space-between;
+    
 }
 
 footer{
