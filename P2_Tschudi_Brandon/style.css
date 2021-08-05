@@ -346,7 +346,7 @@ form{
     object-fit: cover;
 }
 
-#text_pop{
+.text_pop{
     display: flex;
     flex-direction: column;
     
@@ -370,7 +370,7 @@ form{
     font-weight: bold;
 }
 
-#etoiles_carte_pop{
+.etoiles_carte_pop{
     margin-bottom: 10px;
 }
 
