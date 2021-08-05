@@ -246,7 +246,7 @@ form{
     width: 220px;
     padding-bottom: 0px;
     margin: 8px;
-    
+    object-fit: cover;
 }
 
 .nom_carte{
@@ -311,6 +311,7 @@ form{
 
 #tete_pop h2{
     margin-left: 30px;
+    padding-top: 10px;
 }
 
 #tete_pop i{
@@ -342,7 +343,7 @@ form{
     float: left;
     border-radius: 20px 0px 0px 20px;
     flex-wrap: nowrap;
-    
+    object-fit: cover;
 }
 
 #text_pop{
@@ -378,7 +379,36 @@ form{
     position: absolute;
     margin-top: 125px;
     justify-content: space-between;
-    
+}
+
+.carte_act{
+    border: 2px solid #F2F2F2;
+    border-radius: 25px 25px 25px 25px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+    width: 320px;
+    height: 450px;
+    margin: 0px;
+    margin-left: 0px;
+}
+
+.carte_act img{
+    height: 400px;
+    object-fit: none;
+    display: block;
+    align-items: stretch;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.nom_carte_act{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 footer{
