@@ -267,7 +267,7 @@ form{
     font-weight: bold;
 }
 
-#etoiles_carte{
+.etoiles_carte{
     padding-bottom: 15px;
     padding-top: 5px;
     margin-left: 10px;
