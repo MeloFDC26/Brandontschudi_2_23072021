@@ -208,8 +208,12 @@ form{
     height: 700px;
 }
 
-#hebergement_a_marseille i, #les_plus_populaires i{
+#etoile_bleue{
     color: #0065fc;
+}
+
+#etoile_grises{
+    color: #f2f2f2;
 }
 
 #hebergement_a_marseille h2{
