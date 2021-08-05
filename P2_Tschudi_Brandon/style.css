@@ -23,7 +23,7 @@ h2{
 }
 
 i{
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .logo_reservia{
@@ -204,7 +204,8 @@ form{
     border-radius: 20px 20px 20px 20px;
     margin-right: 5px;
     justify-content: left;
-    width: 65%;
+    width: 63%;
+    height: 700px;
 }
 
 #hebergement_a_marseille i, #les_plus_populaires i{
@@ -212,7 +213,7 @@ form{
 }
 
 #hebergement_a_marseille h2{
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 20px;
     font-size: x-large;
@@ -227,7 +228,7 @@ form{
     justify-content: space-around;
     flex-direction: column;
     text-align: left;
-    font-size: small;
+    font-size: medium;
     width: 240px;
     height: auto;
     margin: 0px;
@@ -246,26 +247,26 @@ form{
 
 .nom_carte{
     font-weight: bold;
+    font-size: large;
     margin-top: 5px;
     padding-bottom: 5px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .legende_carte{
     padding-bottom: 5px;
     padding-top: 2px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .prix_carte{
     font-weight: bold;
-    margin-left: 5px;
 }
 
 #etoiles_carte{
     padding-bottom: 15px;
     padding-top: 5px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 #cartes_ensemble{
@@ -288,26 +289,30 @@ form{
 #les_plus_populaires{
     background-color: #f2f2f2;
     border-radius: 20px 20px 20px 20px;
-    margin-left: 5px;
-    width: 35%;
-}
-
-#logo_populaires{
-    width: 20%;
-    position: relative;
-    justify-content: end;
-    align-items: flex-end;
+    margin-left: 25px;
+    width: 40%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #tete_pop{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: baseline;
 }
 
+#tete_pop h2{
+    margin-left: 30px;
+}
+
 #tete_pop i{
     color: black;
+    margin-right: 15px;
+    font-size: 20px;
 }
 
 .carte_pop{
@@ -317,11 +322,12 @@ form{
     display: flex;
     position: relative;
     justify-content: space-between;
-    flex: 1;
     flex-direction: row;
-    font-size: small;
-    width: 420px;
-    height: auto;   
+    width: 425px;
+    height: 150px;
+    margin-left: 20px; 
+    font-size: medium; 
+    flex-wrap: nowrap; 
 }
 
 .carte_pop img{
@@ -330,13 +336,42 @@ form{
     position: relative;
     float: left;
     border-radius: 20px 0px 0px 20px;
+    flex-wrap: nowrap;
     
 }
 
 #text_pop{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
+}
+
+.nom_carte_pop{
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+
+.legende_carte_pop{
+    margin-bottom: 40px;
+}
+
+.prix_carte_pop{
+    font-weight: bold;
+}
+
+#etoiles_carte_pop{
+    margin-bottom: 10px;
+}
+
+#cartes_pop_ensemble{
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 footer{
