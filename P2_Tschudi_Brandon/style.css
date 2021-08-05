@@ -35,14 +35,12 @@ i{
 }
 
 #heberge:hover, #activi:hover, #sinscrire:hover{
-    border-top: #0065fc solid;
+    border-top: #0065fc solid 2px;
     color: #0065fc;
-    
 }
 
 header ul{
     list-style-type: none;
-    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -50,17 +48,18 @@ header ul{
     position: absolute;
     right: 40px;
     width: 400px;
-    padding-top: 0px;
-    
     font-size: medium;
+}
+
+header li a{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #sinscrire{
     color: #0065fc;
     font-weight: bold;
-    padding-top: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 #titre_page{
