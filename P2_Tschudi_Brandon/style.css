@@ -208,11 +208,11 @@ form{
     height: 700px;
 }
 
-#etoile_bleue{
+.etoile_bleue{
     color: #0065fc;
 }
 
-#etoile_grises{
+.etoile_grises{
     color: #f2f2f2;
 }
 
