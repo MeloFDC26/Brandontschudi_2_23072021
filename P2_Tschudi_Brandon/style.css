@@ -381,7 +381,7 @@ form{
     justify-content: space-between;
 }
 
-.carte_act{
+.carte_act_grand{
     border: 2px solid #F2F2F2;
     border-radius: 25px 25px 25px 25px;
     display: flex;
@@ -397,7 +397,7 @@ form{
     margin-left: 0px;
 }
 
-.carte_act img{
+.carte_act_grand img{
     height: 400px;
     object-fit: none;
     display: block;
@@ -409,6 +409,59 @@ form{
     margin-bottom: 20px;
     margin-left: 10px;
     margin-top: 10px;
+}
+
+.carte_act_moyen_1{
+    border: 2px solid #F2F2F2;
+    border-radius: 25px 25px 25px 25px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+    width: 320px;
+    height: 250px;
+    margin: 0px;
+    margin-left: 0px;
+}
+
+.carte_act_moyen_1 img{
+    height: 200px;
+    object-fit: none;
+    display: block;
+    align-items: stretch;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.carte_act_moyen_2{
+    border: 2px solid #F2F2F2;
+    border-radius: 25px 25px 25px 25px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+    width: 320px;
+    height: 200px;
+    margin: 0px;
+    margin-left: 0px;
+}
+
+.carte_act_moyen_2 img{
+    height: 140px;
+    object-fit: cover;
+    display: block;
+    align-items: stretch;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#ensemble_act{
+    display: flex;
+    flex-direction: row;
 }
 
 footer{
