@@ -316,7 +316,7 @@ form{
 
 #tete_pop i{
     color: black;
-    margin-right: 15px;
+    margin-right: 70px;
     font-size: 30px;
 }
 
@@ -462,6 +462,18 @@ form{
 #ensemble_act{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    height: 450px;
+}
+
+.superposition_act{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.height{
+    height: 200px;
 }
 
 footer{
