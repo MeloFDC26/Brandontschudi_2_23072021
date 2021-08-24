@@ -150,7 +150,7 @@ form{
     align-items: baseline;
     justify-content: space-between;
     position: relative;
-    width: 70%;
+    max-width: 75%;
     height: auto;
     font-weight: bold;
     margin-bottom: 20px;
@@ -172,7 +172,7 @@ form{
 }
 
 #logo_familial{
-    padding-left: -20px;
+    
     width: 120px;
 }
 
@@ -312,11 +312,12 @@ form{
     background-color: #f2f2f2;
     border-radius: 20px 20px 20px 20px;
     margin-left: 25px;
-    min-width: 30%;
+    min-width: 33%;
     height: 700px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: left;
+    flex-wrap: nowrap;
 }
 
 #tete_pop{
@@ -334,7 +335,7 @@ form{
 
 #tete_pop i{
     color: black;
-    margin-right: 70px;
+    margin-right: 20px;
     font-size: 30px;
 }
 
@@ -347,6 +348,7 @@ form{
     justify-content: space-between;
     flex-direction: row;
     height: 150px;
+    width: 350px;
     margin-left: 20px; 
     margin-bottom: 30px;
     font-size: medium; 
@@ -354,7 +356,7 @@ form{
 }
 
 .carte_pop img{
-    width: 150px;
+    width: 125px;
     margin: 4px;
     position: relative;
     float: left;
@@ -365,19 +367,22 @@ form{
 .text_pop{
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 10px;
 }
 
 .nom_carte_pop{
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-size: large;
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    max-width: 80%;
 }
 
 .legende_carte_pop{
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .prix_carte_pop{
@@ -391,7 +396,7 @@ form{
 #cartes_pop_ensemble{
     display: block;
     position: absolute;
-    margin-top: 125px;
+    margin-top: 130px;
     justify-content: space-between;
 }
 
@@ -480,7 +485,7 @@ form{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 450px;
+    height: auto;
 }
 
 .superposition_act{
@@ -489,6 +494,12 @@ form{
     justify-content: space-between;
     flex: 1;
 }
+
+#act{
+    display: block;
+    height: auto;
+}
+
 /*ACTIVITES END*/
 
 /*FOOTER START*/
