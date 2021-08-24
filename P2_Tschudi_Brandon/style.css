@@ -31,6 +31,8 @@ i{
     font-size: 15px;
 }
 
+/*HEADER START */
+
 .logo_reservia{
     display: block;
     float: left;
@@ -48,21 +50,31 @@ header ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
     font-size: medium;
 }
 
 header li a{
     padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
 }
 
 #sinscrire{
     color: #0065fc;
     font-weight: bold;
 }
+
+nav{
+    max-width: 33%;
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    float: right;
+}
+
+/* HEADER END */
 
 #titre_page{
     display: flex;
@@ -334,7 +346,6 @@ form{
     position: relative;
     justify-content: space-between;
     flex-direction: row;
-    width: 425px;
     height: 150px;
     margin-left: 20px; 
     margin-bottom: 30px;
@@ -343,19 +354,17 @@ form{
 }
 
 .carte_pop img{
-    width: 200px;
+    width: 150px;
     margin: 4px;
     position: relative;
     float: left;
     border-radius: 20px 0px 0px 20px;
-    flex-wrap: nowrap;
     object-fit: cover;
 }
 
 .text_pop{
     display: flex;
     flex-direction: column;
-    
 }
 
 .nom_carte_pop{
@@ -365,7 +374,6 @@ form{
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-
 }
 
 .legende_carte_pop{
