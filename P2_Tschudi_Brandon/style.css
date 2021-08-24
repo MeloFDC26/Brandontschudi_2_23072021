@@ -191,6 +191,8 @@ form{
     align-items: baseline;
 }
 
+/* Hebergements START */
+
 #premiers_blocs{
     display: flex;
     flex-direction: row;
@@ -290,6 +292,10 @@ form{
     padding-top: 10px;
 }
 
+/* Hebergements END */
+
+/* Populaires START */
+
 #les_plus_populaires{
     background-color: #f2f2f2;
     border-radius: 20px 20px 20px 20px;
@@ -380,9 +386,10 @@ form{
     margin-top: 125px;
     justify-content: space-between;
 }
+
+/* Populaires END */
+
 /*ACTIVITES START*/
-
-
 
 .carte_act_grand{
     border: 2px solid #F2F2F2;
