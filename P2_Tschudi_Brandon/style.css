@@ -4,6 +4,11 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+#bloc_page{
+    max-width: 1200px;
+    margin: auto;
+}
+
 strong{
     font-weight: bold;
 }
@@ -45,9 +50,6 @@ header ul{
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
-    position: absolute;
-    right: 40px;
-    width: 400px;
     font-size: medium;
 }
 
@@ -204,7 +206,6 @@ form{
     border-radius: 20px 20px 20px 20px;
     margin-right: 5px;
     justify-content: left;
-    width: 63%;
     height: 700px;
 }
 
@@ -294,7 +295,7 @@ form{
     background-color: #f2f2f2;
     border-radius: 20px 20px 20px 20px;
     margin-left: 25px;
-    width: 40%;
+    min-width: 30%;
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -380,6 +381,9 @@ form{
     margin-top: 125px;
     justify-content: space-between;
 }
+/*ACTIVITES START*/
+
+
 
 .carte_act_grand{
     border: 2px solid #F2F2F2;
@@ -391,14 +395,15 @@ form{
     text-align: left;
     font-size: medium;
     font-weight: bold;
-    width: 320px;
     height: 450px;
     margin: 0px;
     margin-left: 0px;
+    flex: 1;
 }
 
 .carte_act_grand img{
     height: 400px;
+    width: 100%;
     object-fit: none;
     display: block;
     align-items: stretch;
@@ -421,7 +426,6 @@ form{
     text-align: left;
     font-size: medium;
     font-weight: bold;
-    width: 320px;
     height: 250px;
     margin: 0px;
     margin-left: 0px;
@@ -445,7 +449,6 @@ form{
     text-align: left;
     font-size: medium;
     font-weight: bold;
-    width: 320px;
     height: 200px;
     margin: 0px;
     margin-left: 0px;
@@ -470,12 +473,11 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1;
 }
+/*ACTIVITES END*/
 
-.height{
-    height: 200px;
-}
-
+/*FOOTER START*/
 footer{
     background-color: #f2f2f2;
     display: flex;
@@ -500,3 +502,4 @@ footer li{
 .footer_bloc{
     flex: 1;
 }
+/*FOOTER END*/
