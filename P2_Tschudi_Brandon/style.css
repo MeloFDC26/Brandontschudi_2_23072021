@@ -9,6 +9,10 @@ body{
     margin: auto;
 }
 
+main, #subheader{
+    padding: 0px 40px;
+}
+
 strong{
     font-weight: bold;
 }
@@ -53,6 +57,7 @@ header ul{
     justify-content: space-between;
     align-items: baseline;
     font-size: medium;
+    padding: 0px;
 }
 
 header li a{
@@ -121,6 +126,7 @@ form{
     border: 1px solid #0065fc;
     font-size: medium;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .filtres{
@@ -129,7 +135,7 @@ form{
     border-left: none;
     border-radius: 0px 35px 35px 0px;
     padding: 0px;
-    width: 150px;
+
     height: 53px;
     display: flex;
     flex-direction: row;
@@ -141,6 +147,12 @@ form{
 
 .filtres:hover{
     background-color: #deebff;
+    cursor: pointer;
+}
+
+#filtres_label{
+    font-weight: bold;
+    margin-right: 20px;
 }
 
 #logos{
@@ -169,15 +181,6 @@ form{
     height: 55px;
     margin-right: 10px;
     margin-left: -45px;  
-}
-
-#logo_familial{
-    
-    width: 120px;
-}
-
-#logo_animaux{
-    width: 200px;
 }
 
 #logo_info{
@@ -209,8 +212,7 @@ form{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 }
 
 #hebergement_a_marseille{  
@@ -218,9 +220,9 @@ form{
     display: flex;
     flex-wrap: wrap;
     border-radius: 20px 20px 20px 20px;
-    margin-right: 5px;
+    padding: 10px;
     justify-content: left;
-    height: 700px;
+
 }
 
 .etoile_bleue{
@@ -234,8 +236,6 @@ form{
 #hebergement_a_marseille h2{
     margin-left: 30px;
     margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: x-large;
 }
 
 .carte_heberge{
@@ -290,12 +290,9 @@ form{
 #cartes_ensemble{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     position: relative;
-    padding: 0px;
-    margin-left: 0px;
-    
 }
 
 #afficher_plus{
@@ -311,9 +308,9 @@ form{
 #les_plus_populaires{
     background-color: #f2f2f2;
     border-radius: 20px 20px 20px 20px;
-    margin-left: 25px;
+
     min-width: 33%;
-    height: 700px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -345,11 +342,9 @@ form{
     background-color: white;
     display: flex;
     position: relative;
-    justify-content: space-between;
+
     flex-direction: row;
     height: 150px;
-    width: 350px;
-    margin-left: 20px; 
     margin-bottom: 30px;
     font-size: medium; 
     flex-wrap: nowrap; 
@@ -494,14 +489,6 @@ form{
     flex: 1;
 }
 
-#vieux_port{
-    margin-left: 0px;
-}
-
-#nddlg, #parc_longchamp{
-    margin-right: 0px;
-}
-
 #act{
     display: block;
     height: auto;
@@ -515,6 +502,7 @@ footer{
     display: flex;
     flex-direction: row;
     margin-top: 60px;
+    padding: 40px;
 }
 
 footer ul{
@@ -530,6 +518,9 @@ footer li{
     margin-bottom: 10px;
 }
 
+footer h3{
+    margin: 0px;
+}
 
 .footer_bloc{
     flex: 1;
