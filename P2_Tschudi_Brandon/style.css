@@ -471,7 +471,6 @@ form{
     font-weight: bold;
     height: 200px;
     margin: 10px;
-
 }
 
 .carte_act_moyen_2 img{
@@ -486,8 +485,6 @@ form{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-
 }
 
 .superposition_act{
@@ -503,10 +500,6 @@ form{
 
 #nddlg, #parc_longchamp{
     margin-right: 0px;
-}
-
-#vieux_port, #iles_frioul, #nddlg, #parc_longchamp{
-
 }
 
 #act{
