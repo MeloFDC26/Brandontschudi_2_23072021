@@ -404,6 +404,10 @@ form{
 
 /*ACTIVITES START*/
 
+#act h2{
+    margin-top: 70px;
+}
+
 .carte_act_grand{
     border: 2px solid #F2F2F2;
     border-radius: 25px 25px 25px 25px;
