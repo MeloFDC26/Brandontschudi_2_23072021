@@ -418,9 +418,9 @@ form{
     text-align: left;
     font-size: medium;
     font-weight: bold;
-    height: 450px;
-    margin: 0px;
-    margin-left: 0px;
+    height: 480px;
+    margin: 10px;
+
     flex: 1;
 }
 
@@ -428,8 +428,6 @@ form{
     height: 400px;
     width: 100%;
     object-fit: none;
-    display: block;
-    align-items: stretch;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -450,8 +448,7 @@ form{
     font-size: medium;
     font-weight: bold;
     height: 250px;
-    margin: 0px;
-    margin-left: 0px;
+    margin: 10px;
 }
 
 .carte_act_moyen_1 img{
@@ -473,8 +470,8 @@ form{
     font-size: medium;
     font-weight: bold;
     height: 200px;
-    margin: 0px;
-    margin-left: 0px;
+    margin: 10px;
+
 }
 
 .carte_act_moyen_2 img{
@@ -488,8 +485,9 @@ form{
 #ensemble_act{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    height: auto;
+    justify-content: space-around;
+
+
 }
 
 .superposition_act{
@@ -497,6 +495,18 @@ form{
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
+}
+
+#vieux_port{
+    margin-left: 0px;
+}
+
+#nddlg, #parc_longchamp{
+    margin-right: 0px;
+}
+
+#vieux_port, #iles_frioul, #nddlg, #parc_longchamp{
+
 }
 
 #act{
