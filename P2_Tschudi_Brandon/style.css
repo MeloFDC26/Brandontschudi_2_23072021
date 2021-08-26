@@ -9,7 +9,7 @@ body{
     margin: auto;
 }
 
-main, #subheader{
+main, #subheader, .logo_reservia{
     padding: 0px 40px;
 }
 
@@ -48,6 +48,7 @@ i{
 #heberge:hover, #activi:hover, #sinscrire:hover{
     border-top: #0065fc solid 2px;
     color: #0065fc;
+    margin-top: 0px;
 }
 
 header ul{
@@ -61,7 +62,7 @@ header ul{
 }
 
 header li a{
-    padding-top: 20px;
+    padding-top: 22px;
     padding-left: 30px;
     padding-right: 20px;
 }
@@ -77,6 +78,7 @@ nav{
     justify-content: space-between;
     display: flex;
     float: right;
+    margin-top: 0px;
 }
 
 /* HEADER END */
