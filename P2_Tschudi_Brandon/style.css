@@ -83,6 +83,8 @@ nav{
 
 /* HEADER END */
 
+/*SUBHEADER START */
+
 #titre_page{
     display: flex;
     position: relative;
@@ -208,6 +210,8 @@ form{
     justify-content: space-between;
     align-items: baseline;
 }
+
+/*SUBHEADER END */
 
 /* Hebergements START */
 
