@@ -332,6 +332,7 @@ form{
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: baseline;
+    margin-bottom: 10px;
 }
 
 #tete_pop h2{
