@@ -318,13 +318,12 @@ form{
     background-color: #f2f2f2;
     border-radius: 20px 20px 20px 20px;
     margin-left: 15px;
-    min-width: 30%;
+    min-width: 31%;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: left;
     flex-wrap: nowrap;
-
 }
 
 #tete_pop{
@@ -352,7 +351,7 @@ form{
     background-color: white;
     display: flex;
     position: relative;
-
+    margin-bottom: 15px;
     flex-direction: row;
     height: 150px;
     font-size: medium; 
@@ -398,8 +397,9 @@ form{
 }
 
 #cartes_pop_ensemble{
-    display: block;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
     
 }
 
