@@ -410,6 +410,7 @@ form{
 
 #act h2{
     margin-top: 70px;
+    margin-left: 10px;
 }
 
 .carte_act_grand{
@@ -422,17 +423,18 @@ form{
     text-align: left;
     font-size: medium;
     font-weight: bold;
-    height: 480px;
     margin: 10px;
-
     flex: 1;
 }
 
 .carte_act_grand img{
-    height: 400px;
-    width: 100%;
+    height: auto;
+    max-width: 100%;
     object-fit: none;
     border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
 }
 
 .nom_carte_act{
@@ -488,13 +490,14 @@ form{
 #ensemble_act{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .superposition_act{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     flex: 1;
 }
 
