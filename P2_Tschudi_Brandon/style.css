@@ -440,7 +440,7 @@ form{
 .nom_carte_act{
     margin-bottom: 20px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .carte_act_moyen_1{
@@ -453,7 +453,6 @@ form{
     text-align: left;
     font-size: medium;
     font-weight: bold;
-    height: 250px;
     margin: 10px;
 }
 
