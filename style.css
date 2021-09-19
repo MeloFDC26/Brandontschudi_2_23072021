@@ -42,7 +42,7 @@ i{
     float: left;
     clear: both;
     width: 8%;
-    margin-top: 0px;
+    margin-top: 15px;
 }
 
 #heberge:hover, #activi:hover, #sinscrire:hover{
@@ -62,7 +62,7 @@ header ul{
 }
 
 header li a{
-    padding-top: 22px;
+    padding-top: 37px;
     padding-left: 30px;
     padding-right: 20px;
 }
@@ -78,7 +78,7 @@ nav{
     justify-content: space-between;
     display: flex;
     float: right;
-    margin-top: 0px;
+    margin-top: 15px;
 }
 
 /* HEADER END */
