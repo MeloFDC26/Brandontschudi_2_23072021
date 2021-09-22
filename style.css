@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-@media screen and (min-width: 375px) and (max-width: 800px){
-
-}
-
-@media screen and (min-width: 801px) and (max-width: 1280px){
-    
-}
-
 body{
     font-family: 'Raleway', sans-serif;
 }
@@ -46,10 +38,7 @@ i{
 /*HEADER START */
 
 .logo_reservia{
-    display: block;
-    float: left;
-    clear: both;
-    width: 8%;
+    max-width: 10%;
     margin-top: 15px;
 }
 
@@ -81,7 +70,6 @@ header li a{
 }
 
 nav{
-    max-width: 33%;
     position: relative;
     justify-content: space-between;
     display: flex;
@@ -140,6 +128,12 @@ form{
 }
 
 .filtres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filtre{
     border: 2px #f2f2f2 solid;
     opacity: 1;
     border-left: none;
@@ -148,12 +142,11 @@ form{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    margin-left: 30px;   
+    align-items: center; 
+    margin: 0px 20px 20px 0px; 
 }
 
-.filtres:hover{
+.filtre:hover{
     background-color: #deebff;
     cursor: pointer;
 }
@@ -170,10 +163,8 @@ form{
 #logos{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     align-items: baseline;
     position: relative;
-    max-width: 80%;
     height: auto;
     font-weight: bold;
     margin-bottom: 20px;
@@ -188,7 +179,7 @@ form{
     align-items: center;
     border: solid 2px #deebff;
     border-radius: 50%;
-    width: 45px;
+    min-width: 45px;
     height: 45px;
     margin-right: 10px; 
 }
@@ -267,10 +258,11 @@ form{
 .carte_heberge img{
     border-radius: 20px 20px 0 0;
     height: 110px;
-    width: 220px;
     padding-bottom: 0px;
     margin: 4px;
     object-fit: cover;
+    min-width: 200px;
+
 }
 
 .nom_carte{
@@ -372,33 +364,25 @@ form{
 .text_pop{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     margin-left: 10px;
+    justify-content: space-between;
+    padding: 20px 0px;
 }
 
 .nom_carte_pop{
     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
     font-size: large;
     display: flex;
     flex-wrap: wrap;
     max-width: 80%;
 }
 
-.legende_carte_pop{
-    margin-bottom: 25px;
-}
-
 .prix_carte_pop{
     font-weight: bold;
 }
 
-.etoiles_carte_pop{
-    margin-bottom: 10px;
-}
-
 #cartes_pop_ensemble{
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: column;
@@ -458,7 +442,7 @@ form{
 
 .carte_act_moyen_1 img{
     height: 200px;
-    object-fit: none;
+    object-fit: cover;
     display: block;
     align-items: stretch;
     border-radius: 20px 20px 0px 0px;
@@ -536,3 +520,61 @@ footer h3{
     flex: 1;
 }
 /*FOOTER END*/
+
+
+/*MEDIA QUERIES mobile*/
+
+@media screen and (max-width: 480px){
+
+}
+
+/*MEDIA QUERIES tablette*/
+
+@media screen and (min-width: 480px) and (max-width: 1024px){
+    #premiers_blocs{
+        flex-direction: column-reverse;
+    }
+
+    #hebergement_a_marseille{
+        margin: 30px 0px 0px 0px;
+    }
+
+    #les_plus_populaires{
+        margin: 0px;
+    }
+
+    #cartes_pop_ensemble{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .carte_pop{
+        flex-basis: 49%;
+    }
+
+    .carte_heberge{
+        flex-basis: 45%;
+    }
+    
+    #ensemble_act{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+
+/*MEDIA QUERIES tablette*/
+
+@media screen and (max-width: 1024px){
+    #logos{
+        flex-direction: column;
+    }
+
+    #filtres_label{
+        margin-bottom: 20px;
+    }
+
+    .logo_reservia{
+        max-width: 30%;
+    }
+}
