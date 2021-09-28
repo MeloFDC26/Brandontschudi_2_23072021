@@ -558,8 +558,8 @@ footer h3{
     
     #ensemble_act{
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        
     }
 }
 
