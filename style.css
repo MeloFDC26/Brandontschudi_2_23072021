@@ -554,6 +554,45 @@ footer h3{
         display: none;
     }
 
+    header{
+        position: relative;
+        width: 100%;
+    }
+
+    header ul{
+        padding: unset;
+    }
+
+    nav{
+        position: unset;
+        justify-content: stretch;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    #sinscrire{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    #sinscrire:hover{
+        border-top: unset;
+    }
+
+    #heberge, #activi{
+        border-bottom: #deebff solid 2px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    #heberge:hover, #activi:hover{
+        border-bottom: #0065fc solid 2px;
+        color: #0065fc;
+        padding-bottom: 15px;
+        border-top: none;
+    }
+
     #hebergement_a_marseille{
         background-color: unset;
     }
