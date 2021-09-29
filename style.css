@@ -200,7 +200,6 @@ form{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 450px;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -524,6 +523,65 @@ footer h3{
 /*MEDIA QUERIES mobile*/
 
 @media screen and (max-width: 480px){
+    #sinscrire{
+        
+    }
+
+    form{
+        
+    }
+
+    .filtres{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    #filtres_nowrap{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #info{
+        display: flex;
+        min-width: 350px;
+    }
+
+    #value_info{
+        margin-left: 15px;
+    }
+
+    #premiers_blocs{
+        flex-direction: column-reverse;
+    }
+
+    #hebergement_a_marseille{
+        margin: 30px 0px 0px 0px;
+    }
+
+    #les_plus_populaires{
+        margin: 0px;
+    }
+
+    #cartes_pop_ensemble{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .carte_pop{
+        flex-basis: 49%;
+    }
+
+    .carte_heberge{
+        flex-basis: 45%;
+    }
+    
+    #ensemble_act{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
 }
 
