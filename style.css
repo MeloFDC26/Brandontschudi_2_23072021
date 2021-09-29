@@ -523,7 +523,7 @@ footer h3{
 /*MEDIA QUERIES mobile*/
 
 @media screen and (max-width: 480px){
-    #sinscrire{
+    /* #sinscrire{
         
     }
 
@@ -581,8 +581,11 @@ footer h3{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-    }
+    } */
 
+    footer{
+        flex-direction: column;
+    }
 }
 
 /*MEDIA QUERIES tablette*/
