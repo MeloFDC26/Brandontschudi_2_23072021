@@ -626,9 +626,14 @@ footer h3{
         flex-direction: column;
     }
 
+    #ensemble_act img{
+        flex: none;
+        height: 200px !important;
+    }
+
     .carte_act_grand, .carte_act_moyen_1, .carte_act_moyen_2{
         width: 100%;
-        height: 200px !important;
+        flex-basis: 49%;
     }
 
     footer{
