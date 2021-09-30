@@ -208,7 +208,6 @@ form{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
     align-items: baseline;
 }
 
@@ -667,6 +666,18 @@ footer h3{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .carte_act_grand{
+        flex-basis: 49%;
+    }
+
+    .superposition_act{
+        min-width: 320px;
+    }
+
+    #act h2{
+        margin-left: 15px;
     }
 }
 
