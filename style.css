@@ -534,6 +534,11 @@ footer h3{
         padding: 0px;
     }
 
+    .logo_reservia{
+        max-width: 30%;
+        padding: 0px 20px;
+    }
+
     #subheader{
         padding: 0px 20px;
     }
@@ -579,6 +584,16 @@ footer h3{
     #sinscrire:hover{
         border-top: unset;
     }
+    
+    #heberge{
+        padding-left: 30px;
+        padding-right: 35px;
+    }
+
+    #activi{
+        padding-right: 125px;
+        padding-left: 65px;
+    }
 
     #heberge, #activi{
         border-bottom: #deebff solid 2px;
@@ -623,6 +638,11 @@ footer h3{
 
 @media screen and (min-width: 480px) and (max-width: 1024px){
 
+    .logo_reservia{
+        max-width: 15%;
+        padding: 0px 40px;
+    }
+
     #cartes_pop_ensemble{
         flex-direction: row;
         justify-content: space-between;
@@ -656,10 +676,6 @@ footer h3{
 
     .filtres{
         flex-wrap: wrap;
-    }
-
-    .logo_reservia{
-        max-width: 30%;
     }
 
     #premiers_blocs{
