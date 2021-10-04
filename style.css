@@ -592,7 +592,7 @@ footer h3{
     }
 
     #activi{
-        padding-right: 125px;
+        padding-right: 80px;
         padding-left: 60px;
     }
 
@@ -609,8 +609,17 @@ footer h3{
         border-top: none;
     }
 
+    #logo_info{
+        margin-right: 7px;
+        min-width: 30px;
+    }
+
     #hebergement_a_marseille{
         background-color: unset;
+    }
+
+    #hebergement_a_marseille h2{
+        margin-left: 10px;
     }
 
     #les_plus_populaires{
@@ -621,8 +630,13 @@ footer h3{
         width: 100%;
     }
 
+    #act h2{
+        margin-left: 15px;
+    }
+
     #ensemble_act{
         flex-direction: column;
+        max-width: 95%;
     }
 
     #ensemble_act img{
