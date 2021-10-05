@@ -136,7 +136,6 @@ form{
 .filtres{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .filtre{
@@ -722,5 +721,18 @@ footer h3{
 
     #les_plus_populaires{
         margin: 0px;
+    }
+}
+
+/*MEDIA QUERIES mobile (les_plus_populaires)*/
+
+@media screen and (max-width: 700px){
+    #les_plus_populaires{
+        border-radius: unset;
+        flex-wrap: wrap;
+    }
+    
+    #cartes_pop_ensemble{
+        flex-direction: column;
     }
 }
