@@ -63,7 +63,6 @@ header ul{
 header li a{
     padding-top: 37px;
     padding-left: 30px;
-    padding-right: 20px;
 }
 
 #sinscrire{
@@ -536,7 +535,7 @@ footer h3{
 
     .logo_reservia{
         max-width: 30%;
-        padding: 0px 20px;
+        padding: 10px 20px;
     }
 
     #subheader{
@@ -590,16 +589,35 @@ footer h3{
     }
     
     #heberge, #activi{
-        border-bottom: #deebff solid 2px;
+        
         text-align: center;
-        flex: 1;
-        padding: 20px;
         justify-content: space-around;
     }
 
-    #heberge:hover, #activi:hover{
+    #heberge{
+        padding-left: 50px;
+    }
+
+    #activi{
+        padding-left: 80px;
+    }
+
+    .header_li{
+        border-bottom: #deebff solid 2px;
+        flex: 1;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header_li:hover{
         border-bottom: #0065fc solid 2px;
         color: #0065fc;
+        border-top: none;
+        padding-bottom: 20px;
+    }
+
+    #heberge:hover, #activi:hover{
         border-top: none;
     }
 
