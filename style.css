@@ -588,6 +588,7 @@ footer h3{
         position: absolute;
         top: 5px;
         right: 5px;
+        padding-right: 0px;
     }
 
     #sinscrire:hover{
