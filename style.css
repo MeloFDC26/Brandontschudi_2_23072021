@@ -153,6 +153,9 @@ form{
 .filtre:hover{
     background-color: #deebff;
     cursor: pointer;
+    border: #deebff;
+    min-height: 49px;
+    padding-right: 2px;
 }
 
 #filtres_label{
