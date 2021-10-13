@@ -61,8 +61,9 @@ header ul{
 }
 
 header li a{
-    padding-top: 37px;
+    padding-top: 29px;
     padding-left: 30px;
+    padding-right: 20px;
 }
 
 #sinscrire{
@@ -73,9 +74,11 @@ header li a{
 nav{
     position: relative;
     justify-content: space-between;
+    align-items: center;
     display: flex;
     float: right;
     margin-top: 15px;
+    padding-top: 0px;
 }
 
 /* HEADER END */
