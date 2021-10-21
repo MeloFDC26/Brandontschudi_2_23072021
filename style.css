@@ -581,7 +581,6 @@ footer h3{
         position: unset;
         justify-content: space-around;
         align-items: stretch;
-        width: 100%;
     }
 
     #sinscrire{
@@ -597,7 +596,6 @@ footer h3{
     }
     
     #heberge, #activi{
-        
         text-align: center;
         justify-content: space-around;
     }
@@ -607,7 +605,8 @@ footer h3{
     }
 
     #activi{
-        padding-left: 80px;
+        padding-left: 50px;
+        padding-right: 30px;
     }
 
     .header_li{
@@ -647,7 +646,7 @@ footer h3{
     }
 
     .carte_heberge{
-        width: 100%;
+        width: 100%;f
         min-width: unset;
     }
 
