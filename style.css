@@ -574,7 +574,7 @@ footer h3{
 
     header ul{
         padding: unset;
-        width: 100%;
+        flex: 1;
     }
 
     nav{
@@ -601,21 +601,13 @@ footer h3{
         justify-content: space-around;
     }
 
-    #heberge{
-        padding-left: 50px;
-    }
-
-    #activi{
-        padding-left: 50px;
-        padding-right: 30px;
-    }
-
     .header_li{
         border-bottom: #deebff solid 2px;
         flex: 1;
         padding: 20px;
         justify-content: center;
         align-items: center;
+        padding-right: 0;
     }
 
     .header_li:hover{
