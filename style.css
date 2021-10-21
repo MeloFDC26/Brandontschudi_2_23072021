@@ -581,6 +581,7 @@ footer h3{
         position: unset;
         justify-content: space-around;
         align-items: stretch;
+        width: 100%;
     }
 
     #sinscrire{
